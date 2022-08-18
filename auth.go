@@ -23,7 +23,7 @@ type authPair struct {
 	value string
 	user  string
 }
-
+//
 type authPairs []authPair
 
 func (a authPairs) searchCredential(authValue string) (string, bool) {
