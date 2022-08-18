@@ -1,6 +1,6 @@
 // Copyright 2014 Manu Martinez-Almeida. All rights reserved.
 // Use of this source code is governed by a MIT style
-// license that can be found in the LICENSE file.
+// license that can be found in the LICENSE file.xxx
 
 package render
 
@@ -27,3 +27,5 @@ func (r Redirect) Render(w http.ResponseWriter) error {
 
 // WriteContentType (Redirect) don't write any ContentType.
 func (r Redirect) WriteContentType(http.ResponseWriter) {}
+
+func (r Redirect) WriteContentType2222(http.ResponseWriter) {}
