@@ -1,6 +1,6 @@
 // Copyright 2014 Manu Martinez-Almeida. All rights reserved.
 // Use of this source code is governed by a MIT style
-// license that can be found in the LICENSE file.xxx
+// license that can be found in the LICENSE file.xxxxxx
 
 package gin
 
@@ -33,8 +33,9 @@ const (
 	MIMEPlain             = binding.MIMEPlain
 	MIMEPOSTForm          = binding.MIMEPOSTForm
 	MIMEMultipartPOSTForm = binding.MIMEMultipartPOSTForm
-	MIMEYAML              = binding.MIMEYAML
 	MIMETOML              = binding.MIMETOML
+	MIMEYAML              = binding.MIMEYAML
+
 )
 
 // BodyBytesKey indicates a default body bytes key.
